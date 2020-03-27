@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1035</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>0</y>
+      <width>901</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+     </font>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>Home</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_1">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>30</y>
+        <width>280</width>
+        <height>150</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_10">
+       <property name="geometry">
+        <rect>
+         <x>139</x>
+         <y>30</y>
+         <width>131</width>
+         <height>100</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Download any type of File</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+       <property name="margin">
+        <number>2</number>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="fileDownload">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>121</width>
+         <height>131</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normalon>:/Icons/download1.jpg</normalon>
+        </iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>100</width>
+         <height>110</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>30</y>
+        <width>280</width>
+        <height>150</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>139</x>
+         <y>30</y>
+         <width>131</width>
+         <height>100</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Youtube Video Download</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+       <property name="margin">
+        <number>2</number>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="videoDownload">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>121</width>
+         <height>131</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normalon>:/Icons/youtube2.png</normalon>
+        </iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>100</width>
+         <height>110</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>250</y>
+        <width>280</width>
+        <height>150</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>149</x>
+         <y>30</y>
+         <width>121</width>
+         <height>100</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Youtube Playlist Download</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+       <property name="margin">
+        <number>2</number>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="playlistDownload">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>121</width>
+         <height>131</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normalon>:/Icons/youtube1.jpg</normalon>
+        </iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>100</width>
+         <height>110</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>250</y>
+        <width>280</width>
+        <height>150</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>149</x>
+         <y>30</y>
+         <width>121</width>
+         <height>100</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Themes and Settings</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+       <property name="margin">
+        <number>2</number>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="setChanges">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>121</width>
+         <height>131</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normalon>:/Icons/settings1.png</normalon>
+        </iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>100</width>
+         <height>110</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Download</string>
+     </attribute>
+     <widget class="QPushButton" name="downloadButton_t1">
+      <property name="geometry">
+       <rect>
+        <x>385</x>
+        <y>300</y>
+        <width>120</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Rounded MT Bold</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Download</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="url_t1">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>50</y>
+        <width>570</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Rounded MT Bold</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>Enter Download link here</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="location_t1">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>110</y>
+        <width>510</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Rounded MT Bold</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="placeholderText">
+       <string>Enter Save Location</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="browseButton_t1">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>110</y>
+        <width>50</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Rounded MT Bold</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="photo.qrc">
+        <normaloff>:/Icons/browse.png</normaloff>:/Icons/browse.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="progressBar_t1">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>210</y>
+        <width>570</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Rounded MT Bold</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Youtube</string>
+     </attribute>
+     <widget class="QTabWidget" name="tabWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>-1</x>
+        <y>-1</y>
+        <width>931</width>
+        <height>501</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>Video</string>
+       </attribute>
+       <widget class="QLineEdit" name="vurl_t2">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>50</y>
+          <width>510</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>Enter Video URL</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="vlocation_t2">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>110</y>
+          <width>510</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <property name="placeholderText">
+         <string>Enter Save Location</string>
+        </property>
+       </widget>
+       <widget class="QProgressBar" name="vprogressBar_t2">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>210</y>
+          <width>570</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="value">
+         <number>0</number>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="vbrowseButton_t2">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>110</y>
+          <width>50</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="photo.qrc">
+          <normaloff>:/Icons/browse.png</normaloff>:/Icons/browse.png</iconset>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="vdownloadButton_t2">
+        <property name="geometry">
+         <rect>
+          <x>385</x>
+          <y>320</y>
+          <width>160</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Start Download</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>220</x>
+          <y>160</y>
+          <width>101</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Video Quality</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="vquality">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>160</y>
+          <width>320</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="dataButton">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>50</y>
+          <width>50</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="photo.qrc">
+          <normaloff>:/Icons/save.png</normaloff>:/Icons/save.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="vrem">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>270</y>
+          <width>231</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>Playlist</string>
+       </attribute>
+       <widget class="QLineEdit" name="purl_t2">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>50</y>
+          <width>570</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>Enter Playlist URL</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="geometry">
+         <rect>
+          <x>620</x>
+          <y>110</y>
+          <width>51</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>B</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pdownloadButton_t2">
+        <property name="geometry">
+         <rect>
+          <x>385</x>
+          <y>320</y>
+          <width>160</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Start Download</string>
+        </property>
+       </widget>
+       <widget class="QProgressBar" name="pprogressBar_t2">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>250</y>
+          <width>570</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="value">
+         <number>0</number>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="plocation_t2">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>110</y>
+          <width>510</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <property name="placeholderText">
+         <string>Enter Save Location</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>150</y>
+          <width>90</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Video Quality</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pbrowseButton_t2">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>110</y>
+          <width>50</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="photo.qrc">
+          <normaloff>:/Icons/browse.png</normaloff>:/Icons/browse.png</iconset>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="pquality">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>160</y>
+          <width>320</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>1080p</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>720p</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>480p</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>360p</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>240p</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>144p</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>200</y>
+          <width>111</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Current Video:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>200</y>
+          <width>91</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Full Playlist:</string>
+        </property>
+       </widget>
+       <widget class="QLCDNumber" name="cvlcd">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>200</y>
+          <width>64</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(7, 7, 7);</string>
+        </property>
+       </widget>
+       <widget class="QLCDNumber" name="tvlcd">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>200</y>
+          <width>64</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(13, 13, 13);</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="prem">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>300</y>
+          <width>211</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_6">
+     <attribute name="title">
+      <string>Settings</string>
+     </attribute>
+     <widget class="QPushButton" name="darkOrangeB">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>140</y>
+        <width>150</width>
+        <height>120</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #323232;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="darkBlueB">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>140</y>
+        <width>150</width>
+        <height>120</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="DarkB">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>140</y>
+        <width>150</width>
+        <height>120</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #19232D;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>50</y>
+        <width>441</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>27</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Choose Your Theme</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="darkGrayB">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>140</y>
+        <width>150</width>
+        <height>120</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #323232;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="homeButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>110</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normalon>:/Icons/home1.png</normalon>
+     </iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="downloadButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>110</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normalon>:/Icons/download.png</normalon>
+     </iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ytButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>250</y>
+      <width>110</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normalon>:/Icons/youtube.png</normalon>
+     </iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="setButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>370</y>
+      <width>110</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normalon>:/Icons/settings.png</normalon>
+     </iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1035</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="photo.qrc"/>
+ </resources>
+ <connections/>
+</ui>
