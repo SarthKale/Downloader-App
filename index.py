@@ -222,28 +222,28 @@ class Main(QMainWindow, ui):
 
     def themeDarkOrange(self):
         print("Dark Orange Theme")
-        style = open("themes\darkorange.css", "r")
+        style = open("themes/darkorange.css", "r")
         style = style.read()
         self.setStyleSheet(style)
         
 
     def themeDarkBlue(self):
         print("DarkBlue")
-        style = open("themes\darkblu.css", "r")
+        style = open("themes/darkblu.css", "r")
         style = style.read()
         self.setStyleSheet(style)
 
 
     def themeDark(self):
         print("Dark Theme")
-        style = open("themes\qdark.css", "r")
+        style = open("themes/qdark.css", "r")
         style = style.read()
         self.setStyleSheet(style)
 
 
     def themeDarkGray(self):
         print("Dark Gray")
-        style = open("themes\qdarkgray.css", "r")
+        style = open("themes/qdarkgray.css", "r")
         style = style.read()
         self.setStyleSheet(style)
 
