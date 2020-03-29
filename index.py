@@ -110,8 +110,8 @@ class Main(QMainWindow, ui):
         if vurl == '': 
             QMessageBox.warning(self, "Invalid Entries", "Invalid Video URL")
         else:
-            video = pafy.new(vurl)
-            
+            video = pafy.new(vurl, ydl_opts={"nocheckcertificate": True})
+        
         qualities = video.streams
         for stream in qualities:
             size = humanize.naturalsize(stream.get_filesize())
@@ -132,7 +132,7 @@ class Main(QMainWindow, ui):
         if vurl == '' or vlocation == '':
             QMessageBox.warning(self, "Invalid Entries", "Invalid URL or Browse Location")
         else:
-            video = pafy.new(vurl)
+            video = pafy.new(vurl, ydl_opts={"nocheckcertificate": True})
             vstream = video.streams
             quality = self.vquality.currentIndex()
             download = vstream[quality].download(filepath=vlocation, callback=self.videoProgress)
@@ -167,7 +167,7 @@ class Main(QMainWindow, ui):
         if purl == '' or plocation == '':
             QMessageBox.warning(self, "Invalid Entries", "Invalid URL or Browse Location")
         else:
-            playlist = pafy.get_playlist(purl)
+            playlist = pafy.get_playlist(purl, ydl_opts={"nocheckcertificate": True})
             plvideos = playlist["items"]
             self.tvlcd.display(len(plvideos))
             print(len(plvideos))
@@ -222,28 +222,28 @@ class Main(QMainWindow, ui):
 
     def themeDarkOrange(self):
         print("Dark Orange Theme")
-        style = open("themes\darkorange.css", "r")
+        style = open("themes/darkorange.css", "r")
         style = style.read()
         self.setStyleSheet(style)
         
 
     def themeDarkBlue(self):
         print("DarkBlue")
-        style = open("themes\darkblu.css", "r")
+        style = open("themes/darkblu.css", "r")
         style = style.read()
         self.setStyleSheet(style)
 
 
     def themeDark(self):
         print("Dark Theme")
-        style = open("themes\qdark.css", "r")
+        style = open("themes/qdark.css", "r")
         style = style.read()
         self.setStyleSheet(style)
 
 
     def themeDarkGray(self):
         print("Dark Gray")
-        style = open("themes\qdarkgray.css", "r")
+        style = open("themes/qdarkgray.css", "r")
         style = style.read()
         self.setStyleSheet(style)
 
