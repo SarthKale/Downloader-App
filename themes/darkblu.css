@@ -616,14 +616,8 @@ QPushButton
 {
     color: silver;
     background-color: #302F2F;
-    border-width: 2px;
-    border-color: #4A4949;
-    border-style: solid;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 4px;
+    width: 100%;
+    height: 100%;
     /* outline: none; */
     /* min-width: 40px; */
 }
@@ -631,20 +625,16 @@ QPushButton
 QPushButton:disabled
 {
     background-color: #302F2F;
-    border-width: 2px;
-    border-color: #3A3939;
-    border-style: solid;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 10px;
-    padding-right: 10px;
-    /*border-radius: 2px;*/
     color: #808080;
+    width: 100%;
+    height: 100%;
 }
 
 QPushButton:focus {
     background-color: #3d8ec9;
     color: white;
+    width: 100%;
+    height: 100%;    
 }
 
 QComboBox
@@ -660,12 +650,14 @@ QComboBox
 
 QPushButton:checked{
     background-color: #4A4949;
-    border-color: #6A6969;
+    width: 100%;
+    height: 100%;
 }
 
 QPushButton:hover {
-    border: 2px solid #78879b;
     color: silver;
+    width: 100%;
+    height: 100%;
 }
 
 QComboBox:hover, QAbstractSpinBox:hover,QLineEdit:hover,QTextEdit:hover,QPlainTextEdit:hover,QAbstractView:hover,QTreeView:hover
@@ -718,6 +710,8 @@ QComboBox::down-arrow:focus
 QPushButton:pressed
 {
     background-color: #484846;
+    width: 100%;
+    height: 100%;
 }
 
 QAbstractSpinBox {
@@ -770,6 +764,8 @@ QAbstractSpinBox::down-arrow:hover
 QLabel
 {
     border: 0px solid black;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 QTabWidget{
@@ -1093,12 +1089,6 @@ QToolButton::menu-arrow {
 QToolButton::menu-arrow:open {
     top: 1px; left: 1px; /* shift it a bit */
     border: 1px solid #3A3939;
-}
-
-QPushButton::menu-indicator  {
-    subcontrol-origin: padding;
-    subcontrol-position: bottom right;
-    left: 4px;
 }
 
 QTableView

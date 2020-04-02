@@ -93,27 +93,18 @@ https://doc.qt.io/qt-5/stylesheet-examples.html#customizing-qmainwindow
 --------------------------------------------------------------------------- */
 QMainWindow::separator {
   background-color: #32414B;
-  border: 0px solid #19232D;
   spacing: 0px;
-  padding: 2px;
 }
 
 QMainWindow::separator:hover {
   background-color: #505F69;
-  border: 0px solid #148CD2;
 }
 
 QMainWindow::separator:horizontal {
-  width: 5px;
-  margin-top: 2px;
-  margin-bottom: 2px;
   image: url(":/qss_icons/rc/Vsepartoolbar.png");
 }
 
 QMainWindow::separator:vertical {
-  height: 5px;
-  margin-left: 2px;
-  margin-right: 2px;
   image: url(":/qss_icons/rc/Hsepartoolbar.png");
 }
 
@@ -813,9 +804,9 @@ https://doc.qt.io/qt-5/stylesheet-examples.html#customizing-qframe
 QLabel {
   background-color: #19232D;
   border: 0px solid #32414B;
-  padding: 2px;
-  margin: 0px;
   color: #F0F0F0;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 QLabel::disabled {
@@ -937,71 +928,59 @@ https://doc.qt.io/qt-5/stylesheet-examples.html#customizing-qpushbutton
 --------------------------------------------------------------------------- */
 QPushButton {
   background-color: #505F69;
-  border: 1px solid #32414B;
   color: #F0F0F0;
-  border-radius: 4px;
-  padding: 3px;
-  outline: none;
+  width: 100%;
+  height: 100%;
 }
 
 QPushButton:disabled {
   background-color: #32414B;
-  border: 1px solid #32414B;
   color: #787878;
-  border-radius: 4px;
-  padding: 3px;
+  width: 100%;
+  height: 100%;
 }
 
 QPushButton:checked {
   background-color: #32414B;
-  border: 1px solid #32414B;
-  border-radius: 4px;
-  padding: 3px;
-  outline: none;
+  width: 100%;
+  height: 100%;
 }
 
 QPushButton:checked:disabled {
   background-color: #19232D;
-  border: 1px solid #32414B;
-  color: #787878;
-  border-radius: 4px;
-  padding: 3px;
-  outline: none;
+  width: 100%;
+  height: 100%;
 }
 
 QPushButton:checked:selected {
   background: #1464A0;
   color: #32414B;
+  width: 100%;
+  height: 100%;
 }
 
 QPushButton:checked:hover {
-  border: 1px solid #148CD2;
   color: #F0F0F0;
-}
-
-QPushButton::menu-indicator {
-  subcontrol-origin: padding;
-  subcontrol-position: bottom right;
-  bottom: 4px;
+  width: 100%;
+  height: 100%;
 }
 
 QPushButton:pressed {
   background-color: #19232D;
-  border: 1px solid #19232D;
-}
-
-QPushButton:pressed:hover {
-  border: 1px solid #148CD2;
+  width: 100%;
+  height: 100%;
 }
 
 QPushButton:hover {
-  border: 1px solid #148CD2;
   color: #F0F0F0;
+  width: 100%;
+  height: 100%;
 }
 
 QPushButton:selected {
-  background: #1464A0;
   color: #32414B;
+  width: 100%;
+  height: 100%;
 }
 
 /* QToolButton ------------------------------------------------------------

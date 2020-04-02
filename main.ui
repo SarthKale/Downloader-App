@@ -837,7 +837,7 @@
        <rect>
         <x>40</x>
         <y>140</y>
-        <width>150</width>
+        <width>161</width>
         <height>120</height>
        </rect>
       </property>
@@ -845,7 +845,7 @@
        <string notr="true">background-color: #323232;</string>
       </property>
       <property name="text">
-       <string/>
+       <string>DARK ORANGE THEME</string>
       </property>
      </widget>
      <widget class="QPushButton" name="darkBlueB">
@@ -853,7 +853,7 @@
        <rect>
         <x>260</x>
         <y>140</y>
-        <width>150</width>
+        <width>161</width>
         <height>120</height>
        </rect>
       </property>
@@ -861,7 +861,7 @@
        <string notr="true"/>
       </property>
       <property name="text">
-       <string/>
+       <string>DEFAULT THEME</string>
       </property>
      </widget>
      <widget class="QPushButton" name="DarkB">
@@ -869,7 +869,7 @@
        <rect>
         <x>480</x>
         <y>140</y>
-        <width>150</width>
+        <width>161</width>
         <height>120</height>
        </rect>
       </property>
@@ -877,7 +877,7 @@
        <string notr="true">background-color: #19232D;</string>
       </property>
       <property name="text">
-       <string/>
+       <string>DARK THEME</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_5">
@@ -903,7 +903,7 @@
        <rect>
         <x>690</x>
         <y>140</y>
-        <width>150</width>
+        <width>161</width>
         <height>120</height>
        </rect>
       </property>
@@ -911,7 +911,7 @@
        <string notr="true">background-color: #323232;</string>
       </property>
       <property name="text">
-       <string/>
+       <string>DARK GRAY THEME</string>
       </property>
      </widget>
     </widget>
@@ -922,7 +922,7 @@
       <x>10</x>
       <y>10</y>
       <width>110</width>
-      <height>100</height>
+      <height>111</height>
      </rect>
     </property>
     <property name="font">
@@ -951,7 +951,7 @@
       <x>10</x>
       <y>130</y>
       <width>110</width>
-      <height>100</height>
+      <height>111</height>
      </rect>
     </property>
     <property name="font">
@@ -980,7 +980,7 @@
       <x>10</x>
       <y>250</y>
       <width>110</width>
-      <height>100</height>
+      <height>111</height>
      </rect>
     </property>
     <property name="font">
@@ -1009,7 +1009,7 @@
       <x>10</x>
       <y>370</y>
       <width>110</width>
-      <height>100</height>
+      <height>111</height>
      </rect>
     </property>
     <property name="font">
